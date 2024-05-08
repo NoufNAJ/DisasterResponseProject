@@ -39,7 +39,7 @@ This project is structured into three main sections:
 
 # How to Interact with the project
 To clone the git repository, use the following command:
-- git clone https://github.com/abg3/Disaster-Response-ML-Project.git
+- git clone https://github.com/NoufNAJ/DisasterResponseProject.git
 
 Running the Application
 Navigate to the project's directory and execute the following commands to set up the database, train the model, and save it:
