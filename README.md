@@ -8,7 +8,7 @@ Welcome to the Disaster Response ML Project! This project focuses on implementin
 This project is structured into three main sections:
 
 - Data Processing: Includes building an ETL pipeline to extract data from the source, clean it, and store it in a SQLite database.
-= Machine Learning Pipeline: Develops a pipeline capable of classifying tweet text messages into 36 different categories.
+- Machine Learning Pipeline: Develops a pipeline capable of classifying tweet text messages into 36 different categories.
 - Web Application: Running a web application that displays model results in real-time.
 
 # Installations 
@@ -18,3 +18,21 @@ This project is structured into three main sections:
 - SQLite Database Libraries: SQLAlchemy
 - Model Loading and Saving Library: Pickle
 - Web App and Data Visualization: Flask, Plotly
+
+  
+# File Descriptions
+### app
+- **template**
+  - **master.html**: Main page of the web app.
+  - **go.html**: Classification result page of the web app.
+- **run.py**: Flask file that runs the web app.
+
+### data
+- **disaster_categories.csv**: Data to process.
+- **disaster_messages.csv**: Data to process.
+- **process_data.py**: Script for processing data.
+- **InsertDatabaseName.db**: Database to save clean data to.
+
+### models
+- **train_classifier.py**: Script for training the classifier.
+- **classifier.pkl**: Saved model.
